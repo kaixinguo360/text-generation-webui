@@ -62,14 +62,14 @@ document.addEventListener("keydown", function(event) {
     }
   }
 
-  // Regenerate on Ctrl + Enter
-  else if (event.ctrlKey && event.key === "Enter") {
+  // Regenerate on Alt + Enter
+  else if (event.altKey && event.key === "Enter") {
     event.preventDefault();
     document.getElementById("Regenerate").click();
   }
 
-  // Continue on Alt + Enter
-  else if (event.altKey && event.key === "Enter") {
+  // Continue on Ctrl + Enter
+  else if (event.ctrlKey && event.key === "Enter") {
     event.preventDefault();
     document.getElementById("Continue").click();
   }

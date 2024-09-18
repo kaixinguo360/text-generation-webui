@@ -43,8 +43,8 @@ def create_ui():
         # Hover menu buttons
         with gr.Column(elem_id='chat-buttons'):
             with gr.Row():
-                shared.gradio['Regenerate'] = gr.Button('Regenerate (Ctrl + Enter)', elem_id='Regenerate')
-                shared.gradio['Continue'] = gr.Button('Continue (Alt + Enter)', elem_id='Continue')
+                shared.gradio['Regenerate'] = gr.Button('Regenerate (Alt + Enter)', elem_id='Regenerate')
+                shared.gradio['Continue'] = gr.Button('Continue (Ctrl + Enter)', elem_id='Continue')
                 shared.gradio['Remove last'] = gr.Button('Remove last reply (Ctrl + Shift + Backspace)', elem_id='Remove-last')
 
             with gr.Row():
